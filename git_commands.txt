@@ -1,2 +1,5 @@
 git init. |||Initialize a directory
 git add . ||| Add current directory to be committed/saved
+git commit -m “insert description ||| take everything that’s been add (git add) since the last commit and save it as a version
+
+git status ||| tells us what the current status is
