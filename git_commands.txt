@@ -1,10 +1,38 @@
-git init. |||Initialize a directory
+
+log ||| lists commits in reverse chronological order
+
+git init . ||| Initialize a directory
+
 git add . ||| Add current directory to be committed/saved
-git commit -m “insert description ||| take everything that’s been add (git add) since the last commit and save it as a version
+git commit -m "insert description" ||| Take everything that's been add (git add) since the last commit and save it as a version
 
-git status ||| tells us what the current status is
-
-git_diff ||| tells us what’s changed since the last commit
-
+git status ||| Tells us what the current status is
+git diff ||| tells us what's changed since the last commit
 git log ||| lists commits in reverse chronological order
+
+
+git branch ||| tells you what branches there are and what branch you're on
+git checkout -b BRANCHNAME ||| creates a new branch called BRANCHNAME and puts you on it
+git checkout BRANCHNAME ||| switches you to existing branch BRANCHNAMEgit log
+git merge BRANCHNAME --commit ||| merges BRANCHNAME into current branch as a new commit
+
+GET OUT OF VIM FREE:
+1) Write what you should have written (usually a commit message) while in INSERT mode
+2) Get out of INSERT mode by hitting escape key
+3) Type :q or :wq and hit ENTER
+4) Pray it works.
+
+How does Git work?
+https://xkcd.com/1597/
+
+ADDING TO GITHUB
+Create a repo on Github using the “Start a project” button
+
+git remote add origin URLOFPROJECT ||| sets up a new url as the default place to upload info online
+
+git push origin master ||| uploads {pushes} any new commits to the ORIGIN url and the MASTER branch. You could also do “git push origin test” to push it to the test branch, etc, etc…
+
+GETTING STUFF FROM GITHUB
+
+git clone URLOFPROJECT ||| downloads the repo at URLOFPROJECT for the first time—makes the first connection
 
