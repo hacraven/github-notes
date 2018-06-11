@@ -1,0 +1,2 @@
+git init. |||Initialize a directory
+git add . ||| Add current directory to be committed/saved
