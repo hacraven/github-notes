@@ -36,3 +36,5 @@ GETTING STUFF FROM GITHUB
 
 git clone URLOFPROJECT ||| downloads the repo at URLOFPROJECT for the first time—makes the first connection
 
+git pull origin master ||| downloads any changes that have happened on the master branch of the origin repo. Can also say “git pull origin test” to download changes on the test branch, etc, etc..
+
